@@ -13,7 +13,7 @@
         "type": "ws",
         "path": "/",
         "headers": {
-          "Host": "estproxy4.lockdwn.com"
+          "Host": "94.183.170.135"
         }
       }
     },
@@ -32,13 +32,13 @@
     {
       "type": "hysteria2",
       "tag": "🇪🇪 爱沙尼亚 (Estonia) 03 - xiaohe",
-      "server": "news.gazette.help",
+      "server": "217.60.182.79",
       "server_port": 443,
       "password": "sOiWCQ2AdIV0OWNuqQVyWp4JZnRxdyLROSjX",
       "tls": {
         "enabled": true,
-        "server_name": "news.gazette.help",
-        "insecure": false
+        "server_name": "cabinet.wwwinternetvideo.click",
+        "insecure": true
       }
     },
     {
