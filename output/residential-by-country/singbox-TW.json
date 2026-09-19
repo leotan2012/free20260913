@@ -16,7 +16,11 @@
         "insecure": false
       },
       "transport": {
-        "type": "ws"
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "dee2309db4se3g5s1d65g672c6641e25.oylfmxz.cn"
+        }
       }
     },
     {
@@ -32,11 +36,7 @@
         "insecure": false
       },
       "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "dee2309db4944c248b6d4672c6641e25.oylfmxz.cn"
-        }
+        "type": "ws"
       }
     },
     {
