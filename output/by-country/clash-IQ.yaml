@@ -4,32 +4,32 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇸🇦 沙特 (Saudi Arabia) 01 - xiaohe
-  server: 185.125.103.62
-  port: 8082
+- name: 🇮🇶 IQ 01 - xiaohe
+  server: 104.21.69.37
+  port: 443
   udp: true
   type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  uuid: 911b84e1-d046-4fbf-bfc0-c168791115ef
   tls: true
-  servername: cdn8848.776676.xyz
+  servername: 12ygbae0k3gn0z0f.mehrshadhaddadi8.workers.dev
   skip-cert-verify: false
   client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /
+    path: /vl/uWq9DFRgj8BwQiSXmZ46
     headers:
-      Host: cdn8848.776676.xyz
+      Host: 12ygbae0k3gn0z0f.mehrshadhaddadi8.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇸🇦 沙特 (Saudi Arabia) 01 - xiaohe
+  - 🇮🇶 IQ 01 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇸🇦 沙特 (Saudi Arabia) 01 - xiaohe
+  - 🇮🇶 IQ 01 - xiaohe
 rules:
 - MATCH,PROXIES
