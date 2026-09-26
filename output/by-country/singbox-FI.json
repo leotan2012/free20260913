@@ -6,7 +6,7 @@
     {
       "type": "vless",
       "tag": "🇫🇮 芬兰 (Finland) 01 - xiaohe",
-      "server": "est1313.ggisopi.su",
+      "server": "83.219.97.26",
       "server_port": 443,
       "uuid": "d0f0a880-0df1-48c9-bdf1-5669fb9483ce",
       "flow": "xtls-rprx-vision",
