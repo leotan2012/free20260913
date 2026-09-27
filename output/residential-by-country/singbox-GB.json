@@ -4,18 +4,15 @@
   },
   "outbounds": [
     {
-      "type": "trojan",
+      "type": "vless",
       "tag": "🇬🇧 英国 (United Kingdom) 01 (家宽) - xiaohe",
-      "server": "199.232.78.188",
+      "server": "162.159.153.4",
       "server_port": 443,
-      "password": "MiTiVPN",
+      "uuid": "f2a73750-3087-48ff-a763-1348c15dce68",
       "tls": {
         "enabled": true,
-        "server_name": "ssl.fastly.com",
+        "server_name": "rAyAn-007.mAxImA.DpDnS.OrG",
         "insecure": false,
-        "alpn": [
-          "http/1.1"
-        ],
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -23,9 +20,9 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NLSus---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN",
+        "path": "/",
         "headers": {
-          "Host": "mitivpn---gb--s---mitivpn-1.global.ssl.fastly.net"
+          "Host": "rAyAn-007.mAxImA.DpDnS.OrG"
         }
       }
     },
