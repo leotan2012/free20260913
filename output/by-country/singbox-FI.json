@@ -6,23 +6,21 @@
     {
       "type": "vless",
       "tag": "🇫🇮 芬兰 (Finland) 01 - xiaohe",
-      "server": "84.22.150.39",
-      "server_port": 7443,
-      "uuid": "9d5cbb90-876b-448d-9874-27ab35bae6e7",
+      "server": "2.27.207.30",
+      "server_port": 443,
+      "uuid": "a5dd2dd9-0995-449e-be67-4a409890dc42",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "woc0zvrf11w2endu.dphdlc1u77bs3y4kvussbuap4p576f1ws7igthq8zbf3.workers.dev",
-        "insecure": false,
+        "server_name": "jdbdb.huinaduok.fans",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/@Marisa_kristi",
-        "headers": {
-          "Host": "woc0zvrf11w2endu.dphdlc1u77bs3y4kvussbuap4p576f1ws7igthq8zbf3.workers.dev"
+          "fingerprint": "random"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "nG28Y1q-Ul2oBH-FegAkzGtvY6IRCIwras1k8CLwdGo",
+          "short_id": "da4d87fa"
         }
       }
     },
@@ -60,25 +58,12 @@
       }
     },
     {
-      "type": "vless",
+      "type": "shadowsocks",
       "tag": "🇫🇮 芬兰 (Finland) 04 - xiaohe",
-      "server": "2.27.207.30",
-      "server_port": 443,
-      "uuid": "a5dd2dd9-0995-449e-be67-4a409890dc42",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "jdbdb.huinaduok.fans",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "nG28Y1q-Ul2oBH-FegAkzGtvY6IRCIwras1k8CLwdGo",
-          "short_id": "da4d87fa"
-        }
-      }
+      "server": "185.103.110.68",
+      "server_port": 18283,
+      "method": "aes-128-gcm",
+      "password": "f9300a9bf39ae0347c3a3bfbc4dd7754"
     },
     {
       "type": "selector",
