@@ -26,7 +26,7 @@ proxies:
     headers:
       Host: uae.unixzone.us
 - name: 🇦🇪 阿联酋 (UAE) 03 - xiaohe
-  server: 157.228.155.185
+  server: 157.228.128.59
   port: 443
   udp: true
   type: vless
@@ -34,8 +34,8 @@ proxies:
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: 4q8nqNb-0c-akP3XqVmen67BLXJVlx48a_GDRw16nVg
-    short-id: 5ea112e8
+    public-key: QnxkyscHouhaLDJHT47beyenVd4LHi62yfJIeRV01Ws
+    short-id: 06e00e7c
   servername: addons.mozilla.org
   client-fingerprint: randomized
 proxy-groups:
