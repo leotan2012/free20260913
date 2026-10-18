@@ -19,8 +19,6 @@ proxies:
   network: ws
   ws-opts:
     path: /vless
-    headers:
-      Host: 5.253.29.254
 - name: 🇨🇾 塞浦路斯 (Cyprus) 03 - xiaohe
   server: hydra.yokkastars.com
   port: 2443
