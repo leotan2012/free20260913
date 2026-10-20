@@ -14,29 +14,6 @@
     {
       "type": "vless",
       "tag": "🇨🇿 捷克 (Czech) 02 - xiaohe",
-      "server": "153.76.190.31",
-      "server_port": 2083,
-      "uuid": "d65fb384-5029-4edf-bdc7-0f5960600e3d",
-      "tls": {
-        "enabled": true,
-        "server_name": "speedtestmark.com",
-        "insecure": false,
-        "alpn": [
-          "http/1.1"
-        ],
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/vless-ws"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇿 捷克 (Czech) 03 - xiaohe",
       "server": "server.slavkiti.monster",
       "server_port": 443,
       "uuid": "4d017db2-7655-4276-9557-e2ec25b04ee7",
@@ -61,8 +38,7 @@
       "outbounds": [
         "auto",
         "🇨🇿 捷克 (Czech) 01 - xiaohe",
-        "🇨🇿 捷克 (Czech) 02 - xiaohe",
-        "🇨🇿 捷克 (Czech) 03 - xiaohe"
+        "🇨🇿 捷克 (Czech) 02 - xiaohe"
       ]
     },
     {
@@ -70,8 +46,7 @@
       "tag": "auto",
       "outbounds": [
         "🇨🇿 捷克 (Czech) 01 - xiaohe",
-        "🇨🇿 捷克 (Czech) 02 - xiaohe",
-        "🇨🇿 捷克 (Czech) 03 - xiaohe"
+        "🇨🇿 捷克 (Czech) 02 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
