@@ -29,6 +29,25 @@ proxies:
   obfs: salamander
   obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
 - name: 🇦🇪 阿联酋 (UAE) 04 - xiaohe
+  server: sclass-c1.catcat321.com
+  port: 20086
+  udp: true
+  type: trojan
+  password: d9064589-74af-432a-9390-5d8a9da281bf
+  sni: hk.catxstar.com
+  skip-cert-verify: true
+- name: 🇦🇪 阿联酋 (UAE) 05 - xiaohe
+  server: 84.235.244.108
+  port: 22573
+  udp: true
+  type: vless
+  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: uae.unixzone.us
+- name: 🇦🇪 阿联酋 (UAE) 06 - xiaohe
   server: uae.unixzone.us
   port: 22573
   udp: true
@@ -37,30 +56,8 @@ proxies:
   network: ws
   ws-opts:
     path: /
-- name: 🇦🇪 阿联酋 (UAE) 05 - xiaohe
-  server: 95.174.68.188
-  port: 14430
-  udp: true
-  type: vless
-  uuid: 965ffbbe-c6b6-4d5f-8dea-6d8abc55d9c0
-  network: ws
-  ws-opts:
-    path: /vless
-- name: 🇦🇪 阿联酋 (UAE) 06 - xiaohe
-  server: r0xnfzk9ud.newwl.pro
-  port: 443
-  udp: true
-  type: vless
-  uuid: 7955bf18-35c4-412d-aabd-c0b36c793063
-  tls: true
-  servername: r0xnfzk9ud.newwl.pro
-  skip-cert-verify: false
-  client-fingerprint: firefox
-  network: ws
-  ws-opts:
-    path: /service/telemetry/045d381f1166/
     headers:
-      Host: r0xnfzk9ud.newwl.pro
+      Host: uae.unixzone.us
 proxy-groups:
 - name: PROXIES
   type: select
