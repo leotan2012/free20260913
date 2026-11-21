@@ -5,78 +5,23 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇫🇮 芬兰 (Finland) 01 - xiaohe
-  server: 179.254.126.220
-  port: 443
+  server: static.28.210.29.2.clients.your-server.de
+  port: 25565
   udp: true
-  type: vless
-  uuid: d3863595-3afe-4a74-8305-612ab69cd21c
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: -ZN1kT3JlPFxu1E906JRqLAGoQQucSmL6xPiuAyasTk
-    short-id: 597e1c279d224774
-  servername: 4c980ft.fi15.h1clayd.click
-  client-fingerprint: firefox
-- name: 🇫🇮 芬兰 (Finland) 02 - xiaohe
-  server: 185.88.101.105
-  port: 443
-  udp: true
-  type: vless
-  uuid: f2341274-8dd8-4b80-95fd-780641f6f2da
-  tls: true
-  reality-opts:
-    public-key: aFsY-EZjSNTomlAFShKwQIQMJ5pHiZQXXJpWvcz8WkQ
-    short-id: 0858af97f4e7324d
-  servername: fl13.svinka.pro
-  client-fingerprint: firefox
-  network: grpc
-  grpc-opts:
-    grpc-service-name: fl13svinkapro-grpc
-- name: 🇫🇮 芬兰 (Finland) 03 - xiaohe
-  server: webdisk.jaggyslawa.org
-  port: 443
-  udp: true
-  type: vless
-  uuid: b62e3646-b84d-443c-9c94-718b646502e0
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: zfsjt2A8ur0qHWIuCG7F9W4wZN3VTuL6fkTljC-9R0s
-    short-id: dda5f542d835
-  servername: www.foxsports.com
-  client-fingerprint: edge
-- name: 🇫🇮 芬兰 (Finland) 04 - xiaohe
-  server: f0f0bet.fi2.h1clayd.click
-  port: 443
-  udp: true
-  type: vless
-  uuid: 537d8ade-134d-4ec2-905c-0187e7e1e22e
-  tls: true
-  reality-opts:
-    public-key: _oCg5rCW6XTxriBPzbd_AX0os6QhenVYO9cbrsDSyRY
-    short-id: cf2a731a5f2dc451
-  servername: f0f0bet.fi2.h1clayd.click
-  client-fingerprint: qq
-  network: grpc
-  grpc-opts:
-    grpc-service-name: ''
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: C8ZJ7R4p_HHJ32cst7ilT-0Zi2F22hAc
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
   - 🇫🇮 芬兰 (Finland) 01 - xiaohe
-  - 🇫🇮 芬兰 (Finland) 02 - xiaohe
-  - 🇫🇮 芬兰 (Finland) 03 - xiaohe
-  - 🇫🇮 芬兰 (Finland) 04 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
   - 🇫🇮 芬兰 (Finland) 01 - xiaohe
-  - 🇫🇮 芬兰 (Finland) 02 - xiaohe
-  - 🇫🇮 芬兰 (Finland) 03 - xiaohe
-  - 🇫🇮 芬兰 (Finland) 04 - xiaohe
 rules:
 - MATCH,PROXIES
