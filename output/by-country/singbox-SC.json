@@ -5,22 +5,22 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇫🇮 芬兰 (Finland) 01 - xiaohe",
-      "server": "157.180.98.124",
-      "server_port": 49659,
-      "uuid": "88a558b1-9645-42f3-89e5-341570d8486d",
+      "tag": "🇸🇨 塞舌尔 (Seychelles) 01 - xiaohe",
+      "server": "46.29.255.123",
+      "server_port": 59539,
+      "uuid": "30572b57-f5ab-4eb8-82d4-a24d399b99f6",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "apple.com",
+        "server_name": "cloudflare-dns.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
-          "public_key": "bBVqro8tG6swTNoAkjwUzcu4Ew4N4VcyDHzADcGviCs",
-          "short_id": "81959fce"
+          "public_key": "R6mPqCsjZMWauci4LHw7Qp1LGKmBd-sxMXplyOn9bSQ",
+          "short_id": ""
         }
       }
     },
@@ -29,14 +29,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇫🇮 芬兰 (Finland) 01 - xiaohe"
+        "🇸🇨 塞舌尔 (Seychelles) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇫🇮 芬兰 (Finland) 01 - xiaohe"
+        "🇸🇨 塞舌尔 (Seychelles) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

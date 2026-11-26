@@ -6,21 +6,47 @@
     {
       "type": "vless",
       "tag": "🇵🇱 波兰 (Poland) 01 - xiaohe",
-      "server": "150.241.87.52",
+      "server": "82.118.22.161",
       "server_port": 443,
-      "uuid": "ecc0e60a-f2cc-4266-8353-b228df89730a",
+      "uuid": "05488656-d4bf-4634-8b2e-e4ff5a56c7e2",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "pl.galacticworld.online",
+        "server_name": "www.cloudflare.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "GBO_paFyK9FihgPMH8r_vHa4IKMkSGfvAQ2fhPK_1H4",
-          "short_id": ""
+          "public_key": "xY1KpNxaIGmi6jfeudYQ_aaLGQqWK_uHStnwUFd2_2E",
+          "short_id": "fa3ea655619a3e78"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇵🇱 波兰 (Poland) 02 - xiaohe",
+      "server": "188.225.56.100",
+      "server_port": 443,
+      "uuid": "b432a23a-acff-425c-bf69-70480cd6ed09",
+      "tls": {
+        "enabled": true,
+        "server_name": "e2.cdnwh.icu",
+        "insecure": false,
+        "alpn": [
+          "http/1.1"
+        ],
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/stream/segment/3078a41dd7eb/",
+        "headers": {
+          "Host": "e2.cdnwh.icu"
         }
       }
     },
@@ -29,14 +55,16 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇵🇱 波兰 (Poland) 01 - xiaohe"
+        "🇵🇱 波兰 (Poland) 01 - xiaohe",
+        "🇵🇱 波兰 (Poland) 02 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇵🇱 波兰 (Poland) 01 - xiaohe"
+        "🇵🇱 波兰 (Poland) 01 - xiaohe",
+        "🇵🇱 波兰 (Poland) 02 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

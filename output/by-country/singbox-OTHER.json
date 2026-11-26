@@ -5,18 +5,24 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇪🇪 爱沙尼亚 (Estonia) 01 - xiaohe",
-      "server": "94.159.98.82",
-      "server_port": 2053,
-      "uuid": "fbe22815-0718-4eae-816f-e91c67d15b54",
-      "flow": "xtls-rprx-vision",
+      "tag": "🌐 其他地区 (Other) 01 - xiaohe",
+      "server": "172.67.139.189",
+      "server_port": 443,
+      "uuid": "364D2D52-E61E-4E52-80EC-2BC6BDF15349",
       "tls": {
         "enabled": true,
-        "server_name": "94.159.98.82",
+        "server_name": "fr-free.fastestrelay.com",
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "qq"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/700gvl",
+        "headers": {
+          "Host": "fr-free.fastestrelay.com"
         }
       }
     },
@@ -25,14 +31,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇪🇪 爱沙尼亚 (Estonia) 01 - xiaohe"
+        "🌐 其他地区 (Other) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇪🇪 爱沙尼亚 (Estonia) 01 - xiaohe"
+        "🌐 其他地区 (Other) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
